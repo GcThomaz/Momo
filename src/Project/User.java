@@ -3,6 +3,8 @@ public class User {
     private String userName;
     private String userEmail;
     private double userSalary;
+    private double userPercent = 0;
+    private double paymentPart = 0;
     public User(String name, String email, double salary) {
         this.userName = name;
         this.userEmail = email;
@@ -30,5 +32,19 @@ public class User {
 
     public void setUserSalary(double salary) {
         userSalary = salary;
+    }
+
+    public double getUserPercent() {
+        return userPercent;
+    }
+    public void setUserPercent(double percent) {
+        userPercent = percent;
+    }
+
+    public double getPaymentPart() {
+        return paymentPart;
+    }
+    public void setPaymentPart(double payment) {
+        paymentPart = payment;
     }
 }

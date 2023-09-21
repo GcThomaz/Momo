@@ -2,7 +2,7 @@ package Project;
 
 import java.util.ArrayList;
 
-public class FixedBills extends Bills implements BillsTeste{
+public class FixedBills extends Bills {
 
     ArrayList<FixedBills> fixedBillsList;
 
